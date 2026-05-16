@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: var(--bg-gray-100);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.footer a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: rgba(59, 130, 246, 0.9);
+}
